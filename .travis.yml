@@ -7,4 +7,4 @@ php:
   - hhvm
 install:
   - composer install --no-dev
-script: phpunit -c phpunit.xml -- coverage-text
+script: phpunit -c phpunit.xml --coverage-text
